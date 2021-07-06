@@ -1,0 +1,31 @@
+:root{
+--citron: #91ab23ff;
+--olive-drab-3: #809919ff;
+--mellow-apricot: #f9c481ff;
+--cultured: #efefefff;
+    --cafe: #4d381a !important;
+}
+
+.color{
+    background-color: var(--cultured);
+}
+
+.nav-link{
+    color: var(--cafe) !important;
+}
+
+.nav-link:hover{
+    color: var(--citron) !important;
+}
+
+.text-color{
+    color: var(--cafe)
+}
+
+.marca{
+    margin: 0;
+    padding: 0;
+    font-family: 'Economica', sans-serif;
+    color: var(--cafe);
+    font-size: 36px;
+}
